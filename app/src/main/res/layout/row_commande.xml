@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="3dp"
+    app:cardBackgroundColor="@color/white"
+    app:contentPadding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageVoiture"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:src="@drawable/baseline_directions_car_24" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="idUser: "
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtiduer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="id user "
+                        android:textSize="20sp" />
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Modèle: "
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtmodele"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="modele "
+                        android:textSize="20sp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Marque: "
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtmarque"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="nom marque "
+                        android:textSize="20sp" />
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Prix en $: "
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtprix"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="prix"
+                        android:textSize="20sp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Date commande: "
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtdatecommande"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Date commande "
+                        android:textSize="20sp" />
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Date Livraison: "
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtdatelivraison"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Date livraison "
+                        android:textSize="20sp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mode de paiement: "
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtmodepaiement"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="mode de paiement"
+                        android:textSize="20sp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Etat du commande: "
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtetatcommande"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="etat commande"
+                        android:textSize="20sp" />
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/txtcauseannulation1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Cause de l'annulation: "
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtcauseannulation"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="etat commande"
+                        android:textSize="20sp" />
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/txtstatuslivraison1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Status livraison: "
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtstatuslivraison"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="status livraison"
+                        android:textSize="20sp" />
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/txtcauseretard1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Cause du retard: "
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtcauseretard"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="cause du retard"
+                        android:textSize="20sp" />
+                </TableRow>
+            </TableLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

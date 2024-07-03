@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/im"
+    tools:context=".signin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="150dp"
+            android:gravity="center_vertical"
+            android:padding="20dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="INSCRIPTION"
+                android:textColor="@color/white"
+                android:padding="8dp"
+                android:textSize="30sp"/>
+            <EditText
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/nom"
+                android:layout_marginTop="20dp"
+                android:padding="15dp"
+                android:hint="Nom"
+                android:layout_gravity="center"
+                android:inputType="text"
+                android:drawableLeft="@drawable/sharp_contacts_product_24"
+                android:drawablePadding="15dp"
+                android:background="@drawable/levender"/>
+            <EditText
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/prenom"
+                android:layout_marginTop="20dp"
+                android:padding="15dp"
+                android:hint="Prénom"
+                android:layout_gravity="center"
+                android:inputType="text"
+                android:drawableLeft="@drawable/sharp_contacts_product_24"
+                android:drawablePadding="15dp"
+                android:background="@drawable/levender"/>
+
+            <EditText
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/email"
+                android:layout_marginTop="20dp"
+                android:padding="15dp"
+                android:hint="Email"
+                android:layout_gravity="center"
+                android:inputType="text"
+                android:drawableLeft="@drawable/baseline_email_24"
+                android:drawablePadding="15dp"
+                android:background="@drawable/levender"/>
+
+            <EditText
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/motdepasse"
+                android:layout_marginTop="20dp"
+                android:padding="15dp"
+                android:hint="Mot de passe"
+                android:layout_gravity="center"
+                android:inputType="textPassword"
+                android:drawableLeft="@drawable/round_lock_24"
+                android:drawablePadding="15dp"
+                android:background="@drawable/levender"/>
+            <EditText
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/confirmermdp"
+                android:layout_marginTop="20dp"
+                android:padding="15dp"
+                android:hint="Confirmer"
+                android:layout_gravity="center"
+                android:inputType="textPassword"
+                android:drawableLeft="@drawable/round_lock_24"
+                android:drawablePadding="15dp"
+                android:background="@drawable/levender"/>
+
+            <Button
+                android:id="@+id/btninscrire"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:padding="15dp"
+                android:text="S'inscrire"
+                android:textSize="18sp" />
+            <Button
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:text="Annuler"
+                android:layout_marginTop="20dp"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:padding="15dp"
+                android:id="@+id/btnannuler"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
